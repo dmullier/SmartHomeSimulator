@@ -1,0 +1,140 @@
+{
+  "source_base_path": "C:/Users/Dunc/source/repos/SmartHomeSimulator",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SmartHomeSimulator.IDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SmartHomeSimulator.IDevice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SmartHomeSimulator.IDevice",
+      "Summary": "<p sourcefile=\"api/SmartHomeSimulator.IDevice.yml\" sourcestartlinenumber=\"1\">Represents a generic controllable smart home device.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SmartHomeSimulator.Thermostat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SmartHomeSimulator.Thermostat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SmartHomeSimulator.Thermostat",
+      "Summary": "<p sourcefile=\"api/SmartHomeSimulator.Thermostat.yml\" sourcestartlinenumber=\"1\">Represents a smart thermostat capable of monitoring and adjusting room temperature.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SmartHomeSimulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SmartHomeSimulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SmartHomeSimulator",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "README.html": {
+    "href": "README.html",
+    "title": "SmartHomeSimulator | Smart Home",
+    "summary": "SmartHomeSimulator"
+  },
+  "api/SmartHomeSimulator.IDevice.html": {
+    "href": "api/SmartHomeSimulator.IDevice.html",
+    "title": "Interface IDevice | Smart Home",
+    "summary": "Interface IDevice Namespace SmartHomeSimulator Assembly SmartHomeSimulator.dll Represents a generic controllable smart home device. public interface IDevice Properties DeviceId Gets the unique identifier of the device. string DeviceId { get; } Property Value string IsOn Gets a value indicating whether the device is currently turned on. bool IsOn { get; } Property Value bool Methods TurnOff() Turns the device off. void TurnOff() TurnOn() Turns the device on. void TurnOn()"
+  },
+  "api/SmartHomeSimulator.Thermostat.html": {
+    "href": "api/SmartHomeSimulator.Thermostat.html",
+    "title": "Class Thermostat | Smart Home",
+    "summary": "Class Thermostat Namespace SmartHomeSimulator Assembly SmartHomeSimulator.dll Represents a smart thermostat capable of monitoring and adjusting room temperature. public class Thermostat : IDevice Inheritance object Thermostat Implements IDevice Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Thermostat(string, double) Initializes a new instance of the Thermostat class. public Thermostat(string deviceId, double initialTemperature) Parameters deviceId string The unique identifier for the thermostat. initialTemperature double The starting ambient temperature. Properties CurrentTemperature Gets the current temperature measured by the thermostat in Celsius. public double CurrentTemperature { get; } Property Value double DeviceId Gets the unique identifier of the device. public string DeviceId { get; } Property Value string IsOn Gets a value indicating whether the device is currently turned on. public bool IsOn { get; } Property Value bool TargetTemperature Gets or sets the target temperature set point in Celsius. public double TargetTemperature { get; set; } Property Value double Methods AdjustTargetTemperature(double) Adjusts the target temperature by a specified delta value. public double AdjustTargetTemperature(double delta) Parameters delta double The amount to increase or decrease the target temperature. Returns double The newly updated target temperature. Exceptions InvalidOperationException Thrown if the thermostat is currently turned off. TurnOff() Turns the device off. public void TurnOff() TurnOn() Turns the device on. public void TurnOn()"
+  },
+  "api/SmartHomeSimulator.html": {
+    "href": "api/SmartHomeSimulator.html",
+    "title": "Namespace SmartHomeSimulator | Smart Home",
+    "summary": "Namespace SmartHomeSimulator Classes Thermostat Represents a smart thermostat capable of monitoring and adjusting room temperature. Interfaces IDevice Represents a generic controllable smart home device."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | Smart Home",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | Smart Home",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | Smart Home",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
